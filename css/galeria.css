@@ -1,0 +1,17 @@
+#galeria .contenedor{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#galeria article{
+    margin: 15px;
+    margin-top: 50px;
+    
+    
+}
+
+#galeria img{
+    width: 100%;
+    max-width: 680px;
+}

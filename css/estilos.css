@@ -1,0 +1,155 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans&display=swap);
+@import url(menu.css);
+@import url(banner.css);
+@import url(galeria.css);
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Open Sans', sans-serif;
+}
+
+header {
+   width: 100%;
+   height: 52px;
+   background: #aaffff;
+   color: #00000;
+
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 100;
+}
+
+.contenedor {
+	width: 98%;
+	margin: auto;
+}
+h1 {
+	float: left;
+}
+
+header .contenedor {
+	display: table;
+}
+
+section {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+#Bienvenidos {
+    text-align: justify;
+}
+
+#Bienvenidos2 {
+    text-align: justify;
+}
+
+#Bienvenidos3 {
+    text-align: justify;
+}
+
+#banner{
+    text-align:justify;
+}
+
+#Bienvenidos2 h2{
+    text-align: center;
+}
+
+#Bienvenidos3 h2{
+    text-align: center;
+}
+
+#Bienvenidos h2{
+    text-align: center;
+}
+
+#banner h2{
+    text-align: center;
+     font-size: 50px;
+}
+
+footer .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px
+}
+
+.copy {
+    font-size: 20px;
+}
+
+.sociales{
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+
+.sociales a {
+    color: #333;
+    text-decoration:  none;
+}
+
+#c-slider {
+    width: 30%;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0 0 0 10px #000, 0 15px 50px;
+}
+
+#slider {
+    display: flex;
+    padding: 0;
+    width: 1000%;
+    animation: cambio 40s infinite alternate linear;   
+}
+
+#slider section {
+    width: 100%;
+    list-style: none;
+}
+
+#slider img{
+    display: block;
+    width: 100%;
+    height: 135%
+}
+
+@keyframes cambio {
+    0%{margin-left: 0;}
+    10%{margin-left: 0;}
+    
+    15%{margin-left:-100%;}
+    20%{margin-left:-100%;}
+    
+     25%{margin-left:-200%;}
+     30%{margin-left:-200%;}
+    
+     35%{margin-left:-300%;}
+     40%{margin-left:-300%;}
+    
+     45%{margin-left:-400%;}
+     50%{margin-left:-400%;}
+    
+     55%{margin-left:-500%;}
+     60%{margin-left:-500%;}
+    
+     65%{margin-left:-600%;}
+     70%{margin-left:-600%;}
+    
+     75%{margin-left:-700%;}
+     80%{margin-left:-700%;}
+    
+     85%{margin-left:-800%;}
+     90%{margin-left:-800%;}
+    
+     95%{margin-left:-900%;}
+     100%{margin-left:-900%;}
+    
